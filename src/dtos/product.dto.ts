@@ -1,4 +1,4 @@
-export interface ProductDto {
+export interface CreateProductDto {
   name: string;
   price: number;
   stock: number;
@@ -7,7 +7,7 @@ export interface ProductDto {
   category: string;
 }
 
-export interface UpadateProductDto {
+export interface UpdateProductDto {
   name?: string;
   price?: number;
   stock?: number;
